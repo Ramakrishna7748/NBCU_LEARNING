@@ -1,0 +1,8 @@
+Feature:
+
+
+
+Scenario:
+Given user is able to enter the username
+And user is able to enter the password
+Then user is click o
