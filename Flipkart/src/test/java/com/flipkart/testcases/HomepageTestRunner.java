@@ -6,7 +6,7 @@ import io.cucumber.testng.CucumberOptions;
 
 
 
-@CucumberOptions(features="src/test/resources/Feature/Login.feature",
+@CucumberOptions(features="src/test/resources/Feature/Homepage.feature",
 glue= {"com.flipkart.testcases"},
 monochrome = true)
 public class HomepageTestRunner extends AbstractTestNGCucumberTests
