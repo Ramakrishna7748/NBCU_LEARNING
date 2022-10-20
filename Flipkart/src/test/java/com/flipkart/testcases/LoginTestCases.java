@@ -79,7 +79,12 @@ public class LoginTestCases extends TestBase {
     	loginpage.loginclick();
         System.out.println("user is click on login page");
     }
+    @Test
     
+    public void user_test()
+    {
+    	System.out.println("Test works");
+    }
     @After
 	public void after() throws IOException
     {
